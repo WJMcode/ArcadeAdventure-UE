@@ -364,9 +364,13 @@ FodyWeavers.xsd
 
 vcpkg_installed/
 
-ArcadeAdventure/Intermediate/
-ArcadeAdventure/Saved/
-ArcadeAdventure/Binaries/
-ArcadeAdventure/Build/
-ArcadeAdventure/ArcadeAdventure.sln
-ArcadeAdventure/DerivedDataCache
+# Unreal Engine generated files
+/Intermediate/
+/Saved/
+/Binaries/
+/Build/
+/DerivedDataCache/
+
+# Visual Studio solution and user-specific files
+ArcadeAdventure.sln
+*.sln
